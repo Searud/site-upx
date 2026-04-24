@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard de Energia</title>
+  <link rel="stylesheet" href="CSS2.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-azul">
+
+  <!-- Título fora da página branca -->
+  <section class="intro">
+    <h1 class="titulo-principal">ANÁLISE DE CONSUMO DE ENERGIA</h1>
+    <hr class="linha-gradiente">
+  </section>
+
+  <!-- Container branco centralizado -->
+ <div class="pagina-branca">
+
+  <!-- Subtítulo Consumo de Energia -->
+  <div class="titulo-secao">
+    <h2>Consumo de Energia</h2>
+  </div>
+
+  <div class="grid-2x2">
+
+    <!-- Cemig -->
+    <div class="secao-card">
+      <h3 class="entidade-titulo">CEMIG</h3>
+      <canvas id="graficoCemig"></canvas>
+      <div class="kpi-container">
+        <div class="kpi"><span class="quadrado verde"></span><h4>Renovável</h4><p id="percentRenovavel">--%</p></div>
+        <div class="kpi"><span class="quadrado vermelho"></span><h4>Não Renovável</h4><p id="percentNaoRenovavel">--%</p></div>
+        <div class="kpi"><h4>Consumo Total</h4><p id="consumoTotal">-- MWh</p></div>
+        <div class="kpi"><h4>Custo Total</h4><p id="custoTotal">R$ --</p></div>
+      </div>
+    </div>
+
+    <!-- IEPT -->
+    <div class="secao-card">
+      <h3 class="entidade-titulo">IEPT</h3>
+      <canvas id="graficoIEPT"></canvas>
+      <div class="kpi-container">
+        <div class="kpi"><span class="quadrado verde"></span><h4>Renovável</h4><p id="percentRenovavelIEPT">--%</p></div>
+        <div class="kpi"><span class="quadrado vermelho"></span><h4>Não Renovável</h4><p id="percentNaoRenovavelIEPT">--%</p></div>
+        <div class="kpi"><h4>Consumo Total</h4><p id="consumoTotalIEPT">-- MWh</p></div>
+        <div class="kpi"><h4>Custo Total</h4><p id="custoTotalIEPT">R$ --</p></div>
+      </div>
+    </div>
+
+    <!-- Comparativo de Consumo Energético -->
+    <div class="secao-card">
+      <div class="titulo-secao">
+        <h2>Comparativo de Consumo Energético</h2>
+      </div>
+      <canvas id="graficoComparativo"></canvas>
+    </div>
+
+    <!-- Emissões de CO₂ -->
+    <div class="secao-card">
+      <div class="titulo-secao">
+        <h2>Emissões de CO₂</h2>
+      </div>
+      <canvas id="graficoCO2"></canvas>
+    </div>
+
+  </div>
+
+</div>
+
+
+  <script src="JS2.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body.bg-azul {
+  background: url('img/BG_2.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* Container branco centralizado */
+.pagina-branca {
+  background: #fff;
+  max-width: 1800px; /* largura maior */
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  color: #333;
+}
+
+.titulo-principal {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  letter-spacing: 2px;
+}
+
+.linha-gradiente {
+  border: none;
+  height: 4px;
+  width: 100%;
+  margin: 2rem auto 3rem auto;
+  background: linear-gradient(to right, transparent, #4e4c70d2, transparent);
+  border-radius: 2px;
+}
+
+.titulo-secao {
+  background-color: #f0f0f0;
+  padding: 12px 18px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.titulo-secao h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+/* Grid 2x2 */
+.grid-2x2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* duas colunas */
+  grid-gap: 30px; /* espaçamento entre os cards */
+}
+
+.secao-card {
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* KPIs */
+.kpi-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.kpi {
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  width: 45%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 5px;
+}
+
+.quadrado {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+.verde { background-color: #4caf50; }
+.vermelho { background-color: #f44336; }
+
+/* Gráficos doughnut (Cemig e IEPT) */
+#graficoCemig, #graficoIEPT {
+  max-width: 350px;   /* menor largura */
+  max-height: 350px;  /* menor altura */
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+/* Gráficos comparativo e CO2 */
+#graficoComparativo, #graficoCO2 {
+  width: 100% !important;
+  max-width: 700px;
+  height: 400px !important;
+  margin: 0 auto;
+  display: block;
+}

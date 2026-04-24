@@ -1,0 +1,28 @@
+Ano,Classe de consumidores,Número de clientes,MWh,Variação clientes (%),Variação MWh (%)
+2022,Residencial,7501704,11216803,,
+2022,Industrial,29201,1532562,,
+2022,"Comércio, Serviços e outros",948615,4541506,,
+2022,Rural,462142,3061899,,
+2022,Poder Público,69302,855672,,
+2022,Iluminação pública,7194,1139039,,
+2022,Serviço Público,13586,1400256,,
+2022,Consumo Próprio,769,30942,,
+2022,Suprimento a outras concessionárias,,14647293,,
+2023,Residencial,7725836,12086770,3,"5,2"
+2023,Industrial,30979,1810868,"6,1","18,2"
+2023,"Comércio, Serviços e outros",947406,9451154,"-0,1","108,2"
+2023,Rural,422869,3070520,"-8,5","0,3"
+2023,Poder Público,69670,955516,"0,5","11,7"
+2023,Iluminação pública,6659,1055544,"-7,4","-7,4"
+2023,Serviço Público,13703,1045679,"0,9","-25,3"
+2023,Consumo Próprio,758,29663,"-1,4","-4,1"
+2023,Suprimento a outras concessionárias,298,13026902,"-11,1",
+2024,Residencial,7960300,12715486,"3,03","5,2"
+2024,Industrial,27029,1757157,"-12,75","-2,85"
+2024,"Comércio, Serviços e outros",920937,9676081,"-2,79","2,19"
+2024,Rural,406874,3101596,"-3,97",1
+2024,Poder Público,72689,990424,"4,33","3,64"
+2024,Iluminação pública,6801,969881,"2,14","-8,1"
+2024,Serviço Público,13688,762369,"-0,11","-27,09"
+2024,Consumo Próprio,789,30456,"4,09","2,34"
+2024,Suprimento a outras concessionárias,789,12916268,"164,77","-0,85"
